@@ -257,7 +257,7 @@ const TableLayout = ({ tables, onTableClick }) => {
                 transition: isCurrentlyDragging ? 'none' : 'transform 0.15s ease-out',
                 opacity: isCurrentlyDragging ? 0.9 : 1,
                 zIndex: isCurrentlyDragging ? 1000 : 1,
-                transform: isCurrentlyDragging ? 'scale(1.02) rotate(1deg)' : 'scale(1) rotate(0deg)',
+                transform: isCurrentlyDragging ? 'scale(1.02)' : 'scale(1)',
                 willChange: isCurrentlyDragging ? 'transform' : 'auto'
               }}
               onMouseDown={(e) => handleMouseDown(e, tableId)}

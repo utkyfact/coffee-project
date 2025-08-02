@@ -311,10 +311,6 @@ function Dashboard() {
           <div className="w-4 h-4 rounded-full bg-success"></div>
           <span className="text-sm">Teslim Edildi</span>
         </div>
-        <div className="flex items-center gap-2">
-          <div className="w-4 h-4 rounded-full bg-info"></div>
-          <span className="text-sm">Servis Ediliyor</span>
-        </div>
       </div>
       
       <TableLayout 

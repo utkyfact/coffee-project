@@ -53,11 +53,7 @@ const Table = ({ table, onClick, isEditMode = false }) => {
   return (
     <div className="relative group">
       <div
-        className={`w-32 h-24 relative transition-all bg-base-100 rounded-lg shadow-md border ${
-          isEditMode 
-            ? 'cursor-move border-primary border-2 border-dashed' 
-            : 'cursor-pointer hover:scale-105'
-        }`}
+        className={`w-32 h-24 relative transition-all bg-base-100 rounded-lg shadow-md border cursor-pointer hover:scale-105`}
         onClick={handleClick}
         onMouseDown={(e) => {
           if (isEditMode) {
@@ -67,11 +63,6 @@ const Table = ({ table, onClick, isEditMode = false }) => {
       >
         {/* Masa durumu */}
         <div className={`absolute top-1 right-1 w-3 h-3 ${getStatusColor()} rounded-full border border-white`}></div>
-        
-        {/* Edit mode göstergesi */}
-        {isEditMode && (
-          <div className="absolute top-1 left-1 w-3 h-3 bg-primary rounded-full animate-pulse"></div>
-        )}
         
         {/* Masa bilgileri */}
         <div className="p-2 h-full flex flex-col justify-between">
