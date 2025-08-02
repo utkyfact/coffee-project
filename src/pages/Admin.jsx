@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router';
 import { signOut } from 'firebase/auth';
 import { auth } from '../firebase/config';
 import { FiUsers, FiMenu, FiBarChart2, FiSettings, FiLogOut, FiHome, FiUser, FiCoffee } from 'react-icons/fi';

@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
 import { QRCodeSVG } from 'qrcode.react';
 import { FiEye, FiSquare, FiClock, FiPlus, FiMinus, FiShoppingCart } from 'react-icons/fi';
 import { 

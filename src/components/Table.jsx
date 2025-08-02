@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router';
 import { FiEye, FiCoffee } from 'react-icons/fi';
 
 const Table = ({ table, onClick, isEditMode = false }) => {
