@@ -533,7 +533,7 @@ const UserManagement = () => {
                   <td>
                     <div className="flex items-center gap-3">
                       <div className="avatar placeholder">
-                        <div className="bg-neutral text-neutral-content rounded-full w-12">
+                        <div className="bg-neutral rounded-full w-12 h-12 flex items-center justify-center text-xl" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                           <span>{user.name?.charAt(0)?.toUpperCase()}</span>
                         </div>
                       </div>
